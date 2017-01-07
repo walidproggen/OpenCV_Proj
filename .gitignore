@@ -240,3 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+
+# This stuffs dont need to be pushed:
+HEp-2_cells/
