@@ -93,8 +93,8 @@ int main(int argc, char** argv)
 	percentageRightResult = (float)numberOfRightResults / (float)result.rows;
 	cout << endl << endl << "Result in percent: " << percentageRightResult * 100 << "%" << endl;
 
-	Mat ende = imread("HEp-2_cells\\all\\01.bmp");
-	imshow("Ende", ende);
+	Mat m1 = Mat(1, 1, CV_64F, cvScalar(0.));
+	imshow("Padding", m1);
 	waitKey();
 
 	return 0;
